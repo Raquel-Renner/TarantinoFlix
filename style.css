@@ -1,0 +1,92 @@
+body {
+  font-family: "roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/736x/16/5f/18/165f18d731691597da5a99eee26ed0bc.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+.container_img {
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_nomeFilme {
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: #de0fa9;
+  font-family: "comic sans";
+  font-style: italic;
+  font-size: 20px;
+}
+
+.page-title {
+  color: #de0fa9;
+  margin: 0 0 5px;
+  font-size: 50px;
+  font-style: italic;
+  background-color: #a3d3d9;
+  width: auto;
+  height: auto;
+}
+
+.page-subtitle {
+  color: #de0fa9;
+  font-family: "comic sans";
+  font-style: italic, bold;
+  font-size: 25px;
+  background-color: #a3d3d9;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+label {
+  color: #de0fa9;
+  font-family: "comic sans";
+  font-style: italic, bold;
+  font-size: 20px;
+  background-color: #000000;
+  width: auto;
+  height: auto;
+}
+button {
+  color: #ee8563;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+input {
+  border: 2px;
+  border-radius: 4px;
+}
